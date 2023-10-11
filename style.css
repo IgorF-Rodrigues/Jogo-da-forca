@@ -72,7 +72,7 @@ body {
     margin: .25em;
 }
  
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 680px) {
     .btn-letra {
         display: none;
     }
