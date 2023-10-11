@@ -101,8 +101,7 @@ function palavraSecretaTela() {
 };
 
 btnsLetras.forEach(letra => {
-   let teclado = document.querySelector('.teclado')
-    teclado.innerHTML += `<button class='btn-letra')">${letra}</button>`;
+   document.querySelector('.teclado').innerHTML += `<button class='btn-letra'>${letra}</button>`;
 });
 
 const btnsCell = document.querySelectorAll('.btn-letra');
