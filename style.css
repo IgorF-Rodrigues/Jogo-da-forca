@@ -1,0 +1,79 @@
+body { 
+    background-color: #008040;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Schoolbell', cursive;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.2em;
+}
+
+.tela {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 1.5em;
+}
+
+.secao-palavra-secreta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.palavra-chave {
+    font-size: 2em;
+}
+
+.secao-letras-erradas {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+}
+
+.membros {
+    display: none;
+    stroke: #ffffff;
+    fill: #ffffff;
+}
+
+.forca {
+    stroke: #ffffff;
+}
+
+.btn-reinicia {
+    color: #ffffff;
+    background-color: #008040;
+    border: 3px dashed #ffffff;
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.btn-reinicia:hover, .btn-letra:active {
+    background-color: #ffffff;
+    border: 3px dashed #008040;
+    color: #008040; 
+}
+
+.btn-letra { 
+    color: #ffffff;
+    background-color: #008040;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: .5em;
+    margin: .25em;
+}
+ 
+@media screen and (min-width: 480px) {
+    .btn-letra {
+        display: none;
+    }
+}
